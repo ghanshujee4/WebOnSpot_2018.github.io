@@ -1,0 +1,53 @@
+.premiun-cal li {
+    color: gray;
+    margin-bottom: 10px;
+    height: 70px;
+    background-color: #EEEDED;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    padding-top: 11px;
+    text-align: right;
+    padding-right: 70px;
+    line-height: 15px;
+    position: relative;
+    float: left;
+    width: 45%;
+    vertical-align: top;
+    margin-right: 5px;
+    padding-left: 25px;
+    list-style: none;
+}
+.preicon {
+    height: 56px;
+    border-radius: 100%;
+    background: #fff;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    border: azure;
+    width: 56px;
+    background-image: url('../images/Icons-s8117fb4218.png');
+    background-size: 198px;
+    background-position: -5px 225px;
+}
+span.preicon.Icons-BuildingSumInsuredblue::after {
+       background-image: url("../images/Icons-s8117fb4218.png");
+    background-repeat: no-repeat;
+}
+}
+.Icons-BuildingSumInsuredblue::after, .Icons-CompoundWallSumInsured:after, .Icons-LandscapingSumInsuredblu:after, .Icons-TotalSumInsuredblu:after, .Icons-PeriodofInsurance:after, .Icons-AlternateAccommodation:after, .Icons-EscalationBenefitblu:after, .Icons-LossofRentblu:after, .Icons-Terrorismblu:after, .Icons-QuoteID:after, .Icons-JewelleryValuablesblue:after, .Icons-ContentsSumInsured:after, .Icons-Appliancesblu:after, .Icons-ThirdPartyLiabilityblu:after, .Icons-MobileEquipmentsblu:after, .Icons-Baggageblu:after, .Icons-ExternalEquipmentsblu:after, .Icons-LossofCashblu:after, .Icons-EmployeesCompensationblu:after, .Icons-Waiverblu:after {
+    content: ">>";
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.Icons-BuildingSumInsuredblue::after {
+    background-position: -101px -282px;
+    height: 32px;
+    width: 32px;
+}

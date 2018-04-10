@@ -1007,13 +1007,14 @@ h3.agile_tittle span {
 }
 
 .main_section_agile.inner {
-    background: url(../images/about_banner.jpg)no-repeat 0px 0px;
+    background: url(../images/About_banner.jpg)no-repeat 0px 0px;
     background-size: cover;
-    -webkit-background-size: cover;
+    -webkit-background-size: 100% 224px;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    min-height: 350px;
+    min-height: 224px;
+    /* margin-top: 100px; */
 }
 
 
@@ -4346,6 +4347,19 @@ color:#000;
     margin: 0 auto;
     /* border: 0px; */
 }
+.popup-menu {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 auto;
+}
+.popup-menu iframe {
+    width: 100%;
+    min-height: 450px;
+    position: relative;
+    border: none;
+}
 @media (min-width: 1200px) {
     .container {
         width: 1270px;
@@ -4363,6 +4377,8 @@ color:#fff;
 .social ul a {
   color: #fff;
   text-decoration: none;
+  margin-top: -10px;
+  top: -6px;
 }
 .me {
   width: 400px;
@@ -4382,7 +4398,7 @@ color:#fff;
 }
 .social {
   position: fixed;
-  top: 20px;
+  top: 208px;
   z-index: 999999;
 }
 .social ul {

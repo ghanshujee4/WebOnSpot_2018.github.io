@@ -1,9 +1,3 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 
 body {
     margin: 0;
@@ -367,6 +361,7 @@ a.navbar-brand {
     font-weight: 600;
     padding: .8em 0;
     border-bottom: 1px solid #ececef;
+    border-top: 4px solid #1cd6c7;
 }
 
 .agile_short_dropdown>li>a:hover {
@@ -568,6 +563,7 @@ a.rslides_nav.rslides1_nav.next {
 
 #home {
     position: relative;
+    /* margin: 15px; */
 }
 
 ul#slider li:nth-child(1) {
@@ -1007,9 +1003,9 @@ h3.agile_tittle span {
 }
 
 .main_section_agile.inner {
-    background: url(../images/About_banner.jpg)no-repeat 0px 0px;
+    background: url(../images/About_banner.png)no-repeat 0px 0px;
     background-size: cover;
-    -webkit-background-size: 100% 224px;
+    -webkit-background-size: 100% 410px;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
@@ -1248,6 +1244,7 @@ h3.agile_tittle.two {
     -ms-background-size: cover;
     padding: 7em 0 0 0;
     min-height: 760px;
+    background-color: #7d3f98;
 }
 
 h4.sub_service_agileits {
@@ -4375,10 +4372,11 @@ color:#fff;
 /**Socail Icons**/
 
 .social ul a {
-  color: #fff;
+  /* color: #fff; */
   text-decoration: none;
   margin-top: -10px;
-  top: -6px;
+  top: -19px;
+  margin-top: -20px;
 }
 .me {
   width: 400px;
@@ -4452,15 +4450,15 @@ color:#fff;
 }
 .social ul li i {
   margin-left: 10px;
-  color: #000;
+  color: blue;
   background: #fff;
   padding: 10px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 20px;
+  width: 30px;
+  height: 32px;
+  font-size: 16px;
   background: #ffffff;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);

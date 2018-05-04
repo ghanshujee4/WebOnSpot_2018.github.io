@@ -3760,6 +3760,10 @@ span.simply-word {
 }
 
 @media(max-width:640px) {
+    .w3l-button a {
+    border: solid 2px #1cd8c9;
+    background: #1cd8c9;
+}
     .skills,
     .contact_img_agile {
         min-height: 311px;
@@ -3851,7 +3855,7 @@ span.simply-word {
         letter-spacing: 1px;
     }
     .w3-button {
-        margin: 1em auto 0;
+        margin: 2em auto 0;
         width: 71%;
     }
     .rslides_tabs {
@@ -3926,6 +3930,10 @@ span.simply-word {
 }
 
 @media(max-width:480px) {
+    .wowslider {
+    max-width:100%;
+    height: 120px;
+    }
     .wthree_head_section h2 {
         font-size: 2.1em;
         line-height: 1.4em;
@@ -3981,7 +3989,7 @@ span.simply-word {
         padding: 0.5em 0.5em 0 0.5em;
     }
    .w3-button {
-        margin: 1.5em auto 0;
+        margin: 2em auto 0;
         width: 71%;
     }
     .mid-inner-sec {
@@ -4129,7 +4137,7 @@ span.simply-word {
         left: 12%;
     }
     .w3-button {
-        margin: 1.2em auto 0;
+        margin: 2em auto 0;
         width: 78%;
     }
     .rslides_tabs {
@@ -4193,7 +4201,7 @@ span.simply-word {
         font-size: 0.9em;
     }
     .agileits_w3layouts_banner_nav {
-        padding: 0em 1em;
+        padding: 0em 5px;
         width: 100%;
     }
     .stats {
@@ -4313,7 +4321,7 @@ span.simply-word {
         letter-spacing: 1px;
     }
     .w3-button {
-        margin: 1em auto 0;
+        margin: 2em auto 0;
         width: 82%;
     }
 }

@@ -1,8 +1,9 @@
-﻿
-var myApp = angular.module("myApp", []);
-myApp.directive("myDirective", function() {
-    return {
-        restrict: "E",
-        template: " <h1> Directive</h1>"
-};
+﻿/// <reference path="../wosslider/index.html" />
+
+var app = angular.module("app", []);
+app.directive("appdirective", function () {
+    return(
+        templateUrl = "../wosslider/index.html"
+        );
+
 });

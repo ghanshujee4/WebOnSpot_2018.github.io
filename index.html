@@ -36,11 +36,14 @@
     <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <script src="js/wow.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="js/angularcustom.js"></script>
+     
 
 </head>
 
-<body>
+<body ng-app="app">
     <!-- banner -->
 
     <div class="main_section_agile" id="home">
@@ -97,7 +100,8 @@
         </ul>
     </nav>
     <div class="wowslider">
-        <iframe src="../wosslider/index.html" data-iframely-url="../wosslider/index.html"></iframe>
+        <directive></directive>
+        <!--<iframe src="../wosslider/index.html" data-iframely-url="../wosslider/index.html"></iframe>-->
     </div>
     <div class="banner_top">
         <div class="slider">
@@ -224,14 +228,14 @@
     <!-- medile_section -->
    
     <div class="medile_section" id="three_grids">
-        <div class="col-md-3 mid-one"> </div>
+       <div class="col-md-3"> </div>
         <div class="col-md-3 mid-text-info">
             <h4>Fully Functional Website Development With WOW </h4>
             <p>
                 There are 3 responses to a piece of design – yes, no, and WOW! Wow is the one, we are Committed for.
             </p>
         </div>
-        <div class="col-md-6 mid-two"> </div>
+        <div class="col-md-6"> </div>
         <div class="clearfix"> </div>
 
     </div>
@@ -308,13 +312,13 @@
     <div id="team" class="team featured_services">
         <div class="container">
             <div class="wthree_head_section">
-                <h3 class="w3l_header w3_agileits_header">Amazing <span>Team</span></h3>
+                <h3 class="w3l_header w3_agileits_header">Amazing Developemnt<span>Services</span></h3>
             </div>
             <div class="agile_wthree_inner_grids">
                 <div class="col-md-4 w3_agile_team_grid_info">
-                    <img src="images/t1.jpg" alt=" " class="img-responsive" />
-                    <h3>Jane Mycle </h3>
-                    <p>CEO</p>
+                    <img src="images/webonspot4.jpg" alt=" " class="img-responsive" />
+                    <h3>Web and App Development</h3>
+                    <p>Great design matters, and we look at each project as an opportunity to add a little bit of beauty to the Internet. Professional design inspires trust, and we want your constituents to trust you and feel good about doing business with you.</p>
                     <div class="agileits_w3layouts_nav_right team_agile _icons">
                         <ul>
                             <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -325,9 +329,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 w3_agile_team_grid_info">
-                    <img src="images/t2.jpg" alt=" " class="img-responsive" />
-                    <h3>Amanda Seylon </h3>
-                    <p>Manager</p>
+                    <img src="images/web-design5.png" alt=" " class="img-responsive" />
+                    <h3>CMS (Wordpress, Joomla) </h3>
+                    <p>All major search engines such as Google, Bing and Yahoo have primary search results, where web pages and other content such as videos or local listings are shown and ranked based on what the search engine considers most relevant to users.</p>
                     <div class="agileits_w3layouts_nav_right team_agile _icons">
                         <ul>
                             <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -338,9 +342,9 @@
                     </div>
                 </div>
                 <div class="col-md-4 w3_agile_team_grid_info">
-                    <img src="images/t3.jpg" alt=" " class="img-responsive" />
-                    <h3>Laura Mark</h3>
-                    <p>Designer</p>
+                    <img src="images/web-design6.png" alt=" " class="img-responsive" />
+                    <h3>Search Engine Optimization</h3>
+                    <p>Maximize the number of visitors to a particular website by ensuring that the site appears high on the list of results returned by a search engine</p>
                     <div class="agileits_w3layouts_nav_right team_agile _icons">
                         <ul>
                             <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>

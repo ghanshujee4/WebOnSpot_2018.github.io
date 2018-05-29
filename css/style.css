@@ -954,16 +954,20 @@ h3.agile_tittle span {
 }
 
 .about_agileinfo_grid_imgs img {
-    width: 100%;
+    width: 200px;
     border-radius: 8%;
     box-shadow: 0 15px 20px rgba(0,0,0,.2);
     -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.2);
     -webkit-transform: translate(0,-4px);
     transform: translate(0,-4px);
+    transform: matrix3d(0.679308, 0.316766, 0.749533, 0, -0.75199, 0.429547, 0.5, 0, -0.154318, -0.852166, 0.5, 0, 0, 0, 0, 1);
+    box-shadow: 1px 1px 0px 0px #a3a9b3,2px 2px 0px 0px #a3a9b3,3px 3px 0px 0px #a3a9b3,4px 4px 0px 0px #a3a9b3,5px 5px 0px 0px #a3a9b3 !important;
+    float: left;
+    margin-left: -20px;
 }
 
-.about_agileinfo_grid_imgs img:nth-child(2) {
-    margin-top: 1em;
+.about_agileinfo_grid_imgs img:nth-child(2n) {
+    margin-top: 0em;
 }
 
 

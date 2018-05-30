@@ -4442,10 +4442,9 @@ color:#fff;
   font-weight: bold;
 }
 .social {
-  position: fixed;
-  top: 208px;
+  position: absolute;
+  top: 151px;
   z-index: 999999;
-
 }
 .social ul {
   padding: 0px;

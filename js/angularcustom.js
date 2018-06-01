@@ -7,3 +7,10 @@ app.directive("appDirective", function () {
         };
 
 });
+
+app.directive("popUpDirective", function () {
+    return {
+        templateUrl: '/popup-menu/index.html'
+    };
+
+});

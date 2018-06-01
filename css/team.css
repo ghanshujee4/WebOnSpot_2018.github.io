@@ -19,7 +19,7 @@ body a {
 
 .w3_agile_team_grid_info:nth-child(1),
 .w3_agile_team_grid_info:nth-child(3) {
-	margin-top: 5em;
+	margin-top: 0em;
 }
 
 .w3_agile_team_grid_info p {
@@ -93,6 +93,9 @@ ul.team_icons_agile li a:hover {
 .w3_agile_team_grid_info img {
 	margin: 0 auto;
 	text-align: center;
+    transform: matrix3d(0.679308, 0.316766, 0.749533, 0, -0.75199, 0.429547, 0.5, 0, -0.154318, -0.852166, 0.5, 0, 0, 0, 0, 1);
+    box-shadow: 1px 1px 0px 0px #a3a9b3,2px 2px 0px 0px #a3a9b3,3px 3px 0px 0px #a3a9b3,4px 4px 0px 0px #a3a9b3,5px 5px 0px 0px #a3a9b3 !important;
+    float: left;
 }
 
 

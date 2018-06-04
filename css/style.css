@@ -3354,7 +3354,7 @@ span.simply-word {
         margin-top: 2em;
     }
     .services {
-        padding: 5em 0 3em 0;
+        padding: 0em 0 0em 0;
         min-height: 630px;
     }
     .mid-one,
@@ -4014,7 +4014,7 @@ span.simply-word {
     }
    .w3-button {
         margin: 2em auto 0;
-        width: 71%;
+        width: 85%;
     }
     .mid-inner-sec {
         float: left;
@@ -4168,7 +4168,7 @@ span.simply-word {
     }
     .w3-button {
         margin: 2em auto 0;
-        width: 78%;
+        width: 90%;
     }
     .rslides_tabs {
         bottom: -9%;
@@ -4193,7 +4193,7 @@ span.simply-word {
 @media(max-width:384px) {
     .agile_banner_text_info {
         top: 39%;
-        left: 9%;
+        /* left: 9%; */
     }
     .wthree_head_section h2 {
         font-size: 1.7em;
@@ -4512,4 +4512,8 @@ color:#fff;
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
+}
+#team p {
+color:#000;
+font-size:16px;
 }

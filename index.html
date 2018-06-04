@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
@@ -71,9 +71,9 @@
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <nav class="link-effect-2" id="link-effect-2">
                         <ul class="nav navbar-nav">
-                            <li><a href="index.html" class="effect-3">Home</a></li>
+                            <li class="active"><a href="index.html" class="effect-3">Home</a></li>
                             <li><a href="about.html" class="effect-3">About</a></li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Services <b class="caret"></b></a>
                                 <ul class="dropdown-menu agile_short_dropdown">
                                     <li><a href="services.html">It Solutions</a></li>
@@ -193,17 +193,22 @@
                 pointer-events: none;
             }
         #jssor_1 {
-       position: relative;
-       margin: 0px auto;
-       top: 50px;
-       left: 0px;
-       width: 100%!important;
-       height: 392px!important;
-       overflow: hidden;
-       visibility: visible!important;
-       background: url(images/wmd.jpg);
-       color: red!important;
-       }
+        position: relative;
+        margin: 0px auto;
+        top: 50px;
+        left: 0px;
+        width: 100%!important;
+        height: 392px!important;
+        overflow: hidden;
+        visibility: visible!important;
+        background: url(images/wmd.jpg);
+        color: red!important;
+        }
+        @media only screen and (max-width:767px) {
+            #jssor_1 {
+                height: 230px !important;max-width:100%;
+            }
+        } 
     </style>
     <!--<h1 class="hidden-sm hidden-xs">Responsive Web Development Company in Muzaffarpur</h1>-->
     <div id="jssor_1">
@@ -366,17 +371,6 @@
         </div>
     </div>
     <script type="text/javascript">jssor_1_slider_init();</script>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

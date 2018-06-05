@@ -1882,7 +1882,8 @@ h3.agileits-icons-title {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #777;
+    color: #fff;
+    float: right;
 }
 
 .bs-glyphicons .glyphicon-class {

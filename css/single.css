@@ -332,13 +332,60 @@ color: #1cd8c9;
 		margin: 0 0.4em;
 	}
 }
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 181px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 120px; /* Stay at the top */
+    left: 0;
+    background-color: transparent; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
 
 
 
 
 
-
-.jssorl-004-double-tail-spin img {
+        .jssorl-004-double-tail-spin img {
             animation-name: jssorl-004-double-tail-spin;
             animation-duration: 1.2s;
             animation-iteration-count: infinite;
@@ -415,4 +462,20 @@ color: #1cd8c9;
                 opacity: .3;
                 pointer-events: none;
             }
-    </style>
+        #jssor_1 {
+        position: relative;
+        margin: 0px auto;
+        top: 50px;
+        left: 0px;
+        width: 100%!important;
+        height: 392px!important;
+        overflow: hidden;
+        visibility: visible!important;
+        background: url(../images/wmd.jpg);
+        color: red!important;
+        }
+        @media only screen and (max-width:767px) {
+            #jssor_1 {
+                height: 230px !important;max-width:100%;
+            }
+        } 

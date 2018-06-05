@@ -347,10 +347,10 @@ color: #1cd8c9;
 
 #mySidenav a {
     position: absolute;
-    left: -100px;
+    left: -115px;
     transition: 0.3s;
-    padding: 15px;
-    width: 140px;
+    padding: 15px 5px;
+    width: 150px;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -363,22 +363,22 @@ color: #1cd8c9;
 
 #about {
     top: 20px;
-    background-color: #4CAF50;
+    background-color: #03A9F4;
 }
 
 #blog {
     top: 80px;
-    background-color: #2196F3;
+    background-color: #7d3f98;
 }
 
 #projects {
     top: 140px;
-    background-color: #f44336;
+    background-color: #077bf0;
 }
 
 #contact {
     top: 200px;
-    background-color: #555
+    background-color: #7d3f98;
 }
 
 

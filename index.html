@@ -413,6 +413,31 @@
         </div>
     </div>
     <!-- //banner -->
+    <div class="services-breadcrumb">
+		<div class="agile_inner_breadcrumb">
+
+			<div class="w3_short">
+                <!--<div class="breadcrumb">-->
+                    <script language="JavaScript">
+
+            var path = "";
+            var href = document.location.href;
+            var s = href.split("/");
+            for (var i = 2; i < (s.length - 1) ; i++) {
+                path += "<A HREF=\"" + href.substring(0, href.indexOf("/" + s[i]) + s[i].length + 1) + "/\">" + s[i] + "</A>  |  ";
+            }
+            i = s.length - 1;
+            path += "<A HREF=\"" + href.substring(0, href.indexOf(s[i]) + s[i].length) + "\">" + s[i] + "</A>";
+            var url = window.location.protocol + "//" + path;
+            document.writeln(url);
+            //-->
+                    </script>
+                <!--</div>-->
+				<!--<li><a href="index.html">Home</a><span>|</span></li>
+				<li>Services</li>-->
+			</div>
+		</div>
+	</div>
     <!-- //banner -->
     <!-- banner-bottom -->
     <div class="banner-bottom">
@@ -858,7 +883,7 @@
                 </ul>
 
                 <ul class="social_agileinfo">
-                    <li><a href="#" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://www.fb.com/webonspot" class="w3_facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" class="w3_twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" class="w3_instagram"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="#" class="w3_google"><i class="fa fa-google-plus"></i></a></li>
